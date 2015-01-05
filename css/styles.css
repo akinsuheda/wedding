@@ -22,7 +22,7 @@ a:hover {
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
 }
 
 header h1 {
@@ -49,10 +49,12 @@ header .f-125 {
 
 header .f-75 {
   font-size: 75px;
+  line-height: 108px;
 }
 
 header .f-144 {
   font-size: 144px;
+  line-height: 166px;
 }
 
 header h2 {
@@ -89,7 +91,7 @@ nav a:hover {
 }
 
 .story-item {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .story-item:after,
@@ -163,7 +165,7 @@ nav a:hover {
 }
 
 .story-item p {
-  font-size: 125%;
+  font-size: 122%;
 }
 
 .story-item .left-col p {
@@ -293,35 +295,49 @@ nav a:hover {
 @media (max-width: 720px) {
   header {
     text-align: center;
+    margin-top: 5%;
   }
 
   header h1 {
     float: none;
+    margin: 0;
     width: 100%;
+  }
+
+  header h1.names {
+    margin-right: 0;
   }
 
   header .f-144 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 48px;
+    line-height: 50px;
   }
 
   header .f-125 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 48px;
   }
 
   header .f-100 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 48px;
+    padding-right: 12px;
   }
 
   header .f-75 {
     display: inline-block;
     font-size: 50px;
+    line-height: 75px;
   }
 
   header h2 {
     font-size: 30px;
+  }
+
+  nav a {
+    font-size: 28px;
+    padding-right: 7%;
   }
 
   .story-item .left-col,
@@ -332,13 +348,16 @@ nav a:hover {
     text-align: center;
   }
 
-
   .story-item .left-col p,
   .story-item .right-col p,
   .story-item .center-col p {
     text-align: center;
     float: none;
     width: 100%;
+  }
+
+  .story-item .center-col {
+    margin-top: 0;
   }
 
   .story-item .default-col {
