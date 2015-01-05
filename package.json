@@ -1,0 +1,13 @@
+{
+  "name": "wedding",
+  "author": "Ross Pfahler <ross.pfahler@gmail.com>",
+  "contributors": {
+    "name": "Ross Pfahler",
+    "email": "ross.pfahler@gmail.com"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "clean-css": "3.0.2"
+  },
+  "repository": "https://github.com/ross-pfahler/wedding"
+}
