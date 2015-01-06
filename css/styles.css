@@ -21,7 +21,7 @@ a:hover {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 810px;
   margin: 0 auto 10px auto;
 }
 
@@ -314,6 +314,7 @@ nav a:hover {
     display: inline-block;
     font-size: 48px;
     line-height: 50px;
+    padding-left: 17px;
   }
 
   header .f-125 {
@@ -330,7 +331,7 @@ nav a:hover {
 
   header .f-75 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 48px;
     line-height: 75px;
   }
 
